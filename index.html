@@ -20,14 +20,14 @@
                 <p id="msg">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
                     <p class="pform">
-                        <span class="material-symbols-rounded">person</span>
-                        <input type="email" name="email" id="formail" autocomplete="email">
+                        <span class="material-symbols-rounded" id="icon">person</span>
+                        <input type="email" name="email" id="formail" class="inpform" autocomplete="email" placeholder="Seu e-mail" required>
                     </p>
                     <p class="pform">
-                        <span class="material-symbols-rounded">lock</span>
-                        <input type="password" name="password" id="formpass" autocomplete="password">
+                        <span class="material-symbols-rounded" id="icon">lock</span>
+                        <input type="password" name="password" id="formpass" class="inpform" autocomplete="password" placeholder="Sua senha" minlength="8" required>
                     </p>
-                    <input type="submit" value="Entrar" id="button">
+                    <a href="entrar.html"><input type="submit" value="Entrar" id="button"></a>
                     <a href="" id="esqpass">Esqueci a senha</a>
                 </form>
             </div>
