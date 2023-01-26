@@ -42,17 +42,38 @@ section {
     border-radius: 20px 20px 0px 0px;
 }
 
-#formulario {
-    padding: 14px;
-}
 
-div p {
+p#msg {
     font-size: 0.8em;
     padding: 5px;
+}
+
+#formulario {
+    padding: 14px;
 }
 
 div h1 {
     padding: 10px;
     font-size: 1.5em;
     text-align: center;
+}
+
+.pform {
+    background-color: #ABC8C0;
+    padding: 6.5px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+#button {
+    display: block;
+    margin:auto
+    
+}
+
+#esqpass {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 5px;
 }
