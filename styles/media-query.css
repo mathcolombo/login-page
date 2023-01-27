@@ -5,8 +5,41 @@
     main {
         background-image: linear-gradient(to bottom, #1E1E24, #111D4A);
     }
+
+    section {
+        width: 75vw;
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+    }
 }
 
-/* @media screen and (min-width:1020px) {
-    
-} */
+@media screen and (min-width:1020px) {
+
+    main {
+        background-image: linear-gradient(to bottom, #1E1E24, #111D4A);
+    }
+
+    section {
+        width: 75vw;
+    }
+
+    #imagem {
+        float: right;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: left;
+        width: 70%;
+    }
+}
