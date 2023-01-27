@@ -24,22 +24,24 @@ main {
 }
 
 section {
-    width: 55vw;
-    height: 80vh;
-    background-color: white;
+    width: 250px;
+    height: 500px;
     position: relative;
     top: 10%;
+
+    background-color: white;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+    overflow: hidden;
 }
 
 #imagem {
-    height: 30vh;
+    display: block;
+    height: 200px;
     background-image: url(../images/pattern-building.jpg);
     background-size: cover;
     background-position: right center;
-    border-radius: 20px 20px 0px 0px;
 }
 
 
@@ -49,6 +51,7 @@ p#msg {
 }
 
 #formulario {
+    display: block;
     padding: 10px;
 }
 
