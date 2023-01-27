@@ -21,10 +21,6 @@
         float: right;
         width: 70%;
     }
-    
-    #button {
-        width: 98%;
-    }
 }
 
 @media screen and (min-width:1020px) {
@@ -49,20 +45,8 @@
         width: 50%;
     }
 
-    .pform {
-        /* margin: 10px; */
+    #msg {
+        margin: 20px 0px;
     }
 
-    #space {
-        margin-top: 40px;
-    }
-
-    #button {
-        width: 98%;
-    
-    }
-
-    #esqpass {
-
-    }
 }
